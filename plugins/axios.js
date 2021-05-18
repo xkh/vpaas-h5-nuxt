@@ -23,7 +23,7 @@ export default function({ $axios, redirect }) {
        */
       response => {
         const res = response.data
-        if (res.code === 20000) {
+        if (res.code === 0) {
           return res
         } else {
           redirect('/404')
