@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    aaaa{{name}}
+    {{name}}
     <div v-for="(img, i) in images" :key="i">
       <img :src="img.src.default"/>
     </div>
